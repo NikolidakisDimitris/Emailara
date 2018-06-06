@@ -1,11 +1,15 @@
-#emailara
+#Emailara
 
-Java email console Application 
+Java email console Application
+
 To run this application you have to follow the next path (..\emailara\src\dBase)  to find the "ConnectionClass .java” file to complete the below mentioned data:
+
 a) Your MySQL server URL
 b) Your Username
 c) Your password
+
 You also have to import as an external JAR file the MySQL connector available on the MySQL official web site. The driver is the following: mysql-connector-java-5.1.46-bin.jar
+
 
 Application Functionality :
 The application creates the necessary database and tables if they don’t exist. 
