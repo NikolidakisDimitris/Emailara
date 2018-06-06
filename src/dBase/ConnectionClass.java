@@ -5,8 +5,8 @@ import java.sql.*;
 
 public class ConnectionClass {	
 	private static final String URL ="jdbc:mysql://localhost:3306/?serverTimezone=UTC"  ;
-	private static final String USER = "root" ;
-	private static final String PASS ="admin";
+	private static final String USER = "userName" ;
+	private static final String PASS ="password";
 	 
 	
 	public ConnectionClass() {
