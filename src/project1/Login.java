@@ -44,7 +44,7 @@ public class Login {
 
 			if (rs.next()) {
 				String tmpRole = rs.getString("role");
-				User.Role tmtRole1 = User.cascadeRole(tmpRole);	
+				User.Role tmtRole1 = User.castingRole(tmpRole);	
 				User user = new User(rs.getInt("userId"), rs.getString("username"), rs.getString("password"), tmtRole1);
 				user.showMenu();
 			}

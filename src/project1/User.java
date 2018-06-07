@@ -56,7 +56,7 @@ public class User {
 		this.role = role;
 	}
 				//cascade the type of the role because in the DB is a String and here an enum. 
-	public static User.Role cascadeRole(String tmp) {
+	public static User.Role castingRole(String tmp) {
 		User.Role role =null;
 		switch (tmp) {
 		

@@ -37,7 +37,7 @@ public class UserModel {
 
 			role = input.nextLine().trim();
 
-			userRole = User.cascadeRole(role);
+			userRole = User.castingRole(role);
 			if (userRole !=null && (userRole.equals(User.Role.admin)) ) {
 				System.out.println("");
 				System.out.println("You can't create another admin");
@@ -105,7 +105,7 @@ public class UserModel {
 
 			if (rs.next()) {	// creates the object user
 				String tmpRole = rs.getString("role");
-				User.Role tmtRole1 = User.cascadeRole(tmpRole);	 //cascades the type of the role
+				User.Role tmtRole1 = User.castingRole(tmpRole);	 //cascades the type of the role
 				User user = new User(rs.getInt("userId"), rs.getString("username"), rs.getString("password"), tmtRole1);
 				return user;
 			}// close if
@@ -249,7 +249,7 @@ public class UserModel {
 				System.out.println("");
 				role = input.nextLine().trim();
 				
-			}while (User.cascadeRole(role) == null);
+			}while (User.castingRole(role) == null);
 
 			//The admin can not change role
 			if (role == "admin") {
