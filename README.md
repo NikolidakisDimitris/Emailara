@@ -1,4 +1,4 @@
-#Emailara
+<h1>Emailara or the "Greatest Email"</h1>
 
 Java email console Application
 
@@ -8,7 +8,7 @@ a) Your MySQL server URL
 b) Your Username
 c) Your password
 
-You also have to import as an external JAR file the MySQL connector available on the MySQL official web site. The driver is the following: mysql-connector-java-5.1.46-bin.jar
+You also have to import as an external JAR file the MySQL connector available on the MySQL official web site. </br>The driver is the following: mysql-connector-java-5.1.46-bin.jar
 
 
 Application Functionality :
