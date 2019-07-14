@@ -1,6 +1,6 @@
 <h1>Emailara or the "Greatest Email"</h1>
 
-Java email console Application
+This is a Java email console Application. It’s the first project I implemented, so you can find many Java anti-patterns, but it remains to my repository for legacy reasons !!!
 
 To run this application you have to follow the next path (..\emailara\src\dBase)  to find the "ConnectionClass .java” file to complete the below mentioned data:
 
